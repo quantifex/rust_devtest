@@ -1,4 +1,4 @@
-FROM rust:1.53
+FROM rust:1.54
 
 RUN apt-get update && apt-get install -y jq && \
     rm -rf /var/lib/apt/lists/*
