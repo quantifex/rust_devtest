@@ -1,0 +1,6 @@
+name: 'Rust DevTest - Docker Actions'
+description: 'Docker Actions for the Rust DevTest'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  entrypoint: './unit_test.sh'
